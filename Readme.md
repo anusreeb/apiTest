@@ -1,5 +1,7 @@
 This code provides a rest end point that interfaces with another API and returns some calculated data.
 
+This is build on top of Django and utilizes the requests library to pull from the external api. 
+
 To run this code:
 
 - Clone the repository
