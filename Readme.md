@@ -11,7 +11,7 @@ To run this code:
 
 To use the api do the following:
 
-- curl "http://localhost:8081/settlement/?merchant_id=<merchant_id>&date=<date>"
+- curl "http://localhost:8081/settlement/?merchant_id={merchant_id}&date={date}"
 - merchant_id is the id of the merchant in string format
 - date is in the format yyyy-mm-dd
 - The api will return the merchant_id, date, and the net settlement amount for the given date
